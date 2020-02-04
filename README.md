@@ -47,6 +47,13 @@ cd my-project
 wasm-pack build
 ```
 
+### Run with `npm run start` from inside the ./www directory
+```
+cd ./www
+npm run install
+npm run start
+```
+
 ### 🔬 Test in Headless Browsers with `wasm-pack test`
 
 ```
